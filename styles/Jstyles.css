@@ -6,3 +6,36 @@
     height: 50px;
     width: auto;
 }
+
+.borderRadius {
+    border-radius: 10px;
+}
+
+.fontSize96 {
+    font-size: 96px;
+}
+
+.fontSize64 {
+    font-size: 64px;
+}
+
+.fontSize36 {
+    font-size: 36px;
+}
+
+.fontSize24 {
+    font-size: 24px;
+} 
+/* Should make a media query for font sizes later on for better responsiveness */
+
+.stocklandiaNightResize {
+    width: 100vw;
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.containerSize {
+    height: 516px;
+    width: 516px;
+}
