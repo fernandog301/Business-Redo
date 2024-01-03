@@ -1,25 +1,20 @@
 /* Fonts */
 @font-face {
-    font-family: Montauk-Bold;
+    font-family: EBGaramond-Bold;
     src: url(../Fonts/EBGaramond-Bold.ttf);
 }
 
 @font-face {
-    font-family: Montauk-Italic;
-    src: url(../fonts/Montauk-Regular/Montauk-Italic.otf);
+    font-family: EBGaramond-Regular;
+    src: url(../Fonts/EBGaramond-Regular.ttf);
 }
 
 @font-face {
-    font-family: Montauk-Light;
-    src: url(../fonts/Montauk-Regular/Montauk-Light.otf);
+    font-family: Oswald-Bold;
+    src: url(../Fonts/Oswald-Bold.ttf);
 }
 
 @font-face {
-    font-family: Montauk-Regular;
-    src: url(../fonts/Montauk-Regular/Montauk-Regular.otf);
-}
-
-@font-face {
-    font-family: FugazOne;
-    src: url(../fonts/Montauk-Regular/Fugaz_One/FugazOne-Regular.ttf);
+    font-family: Oswald-Regular;
+    src: url(../Fonts/Oswald-Regular.ttf);
 }
