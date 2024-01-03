@@ -38,4 +38,6 @@
 .containerSize {
     height: 516px;
     width: 516px;
+    background-color: #FAF7F7;
+    border-radius: 10px;
 }

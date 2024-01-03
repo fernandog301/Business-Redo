@@ -11,16 +11,17 @@
 </head>
 
 <body>
+  <!-- Start of Nav Bar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="../assets/stocklandia logo.png" class="logoResize" alt=""></a>
+      <a class="navbar-brand" href="../index.html"><img src="../assets/stocklandia logo.png" class="logoResize"
+          alt="Stocklandia Logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav nav-underline ms-auto">
-          <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
           <a class="nav-link" href="../pages/AboutPage.html">About</a>
           <a class="nav-link active" aria-current="page" href="../pages/OurTrucks.html">Our Trucks</a>
           <a class="nav-link" href="../pages/ApplicationPage.html">Become A Vendor</a>
@@ -28,6 +29,635 @@
       </div>
     </div>
   </nav>
+  <!-- End of Nav Bar -->
+
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center">This Week's Lineup</h1>
+    </div>
+
+    <!-- Start of first row -->
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <!-- Start of Smokin' Roadhouse BBQ -->
+        <div class="card" style="width: 38rem;">
+          <img src="../assets/SmokinRoadhouseBBQ.jpg" class="card-img-top p-4 pb-2" alt="...">
+          <div class="card-body px-4">
+            <h3 class="card-title fw-bold">Smokin' Roadhouse BBQ</h5>
+              <p class="card-text">Started by the Jones family in 1989 this amazing BBQ food truck has
+                over
+                1,000
+                5 star reviews across the board. They are the best around when it comes to anything and
+                everything
+                BBQ.
+              </p>
+              <h3 class="card-title fw-bold">Crowd Favorites</h5>
+                <p class="card-text fw-bold">Pulled Pork Sandwich</p>
+                <p class="card-text">Slow-smoked pulled pork piled high on a soft bun, topped with
+                  coleslaw
+                  and
+                  drizzled with tangy barbecue sauce.</p>
+                <hr>
+                <p class="card-text fw-bold">Beef Brisket Platter</p>
+                <p class="card-text">Tender slices of smoked beef brisket served with pickles, onions,
+                  and a
+                  side of
+                  barbecue sauce.</p>
+                <hr>
+                <p class="card-text fw-bold">Spicy Jalapeño Brisket Melt</p>
+                <p class="card-text">Sliced brisket, jalapeños, pepper jack cheese, and barbecue sauce
+                  on a
+                  toasted
+                  ciabatta roll.</p>
+                <hr>
+
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Full Menu
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Smokin' Roadhouse
+                          BBQ
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p class="fw-bold">Entrees:</p>
+                        <ol>
+                          <li>Pulled Pork Sandwich</li>
+                          <ul>
+                            <li>Slow-smoked pulled pork piled high on a soft bun, topped
+                              with
+                              coleslaw
+                              and drizzled with tangy barbecue sauce.</li>
+                          </ul>
+                          <li>Beef Brisket Platter</li>
+                          <ul>
+                            <li>Tender slices of smoked beef brisket served with pickles,
+                              onions,
+                              and a
+                              side of barbecue sauce.</li>
+                          </ul>
+                          <li>St. Louis Style Ribs</li>
+                          <ul>
+                            <li>Fall-off-the-bone St. Louis-style ribs, dry-rubbed and
+                              glazed
+                              with a
+                              sweet and spicy barbecue sauce.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Sandwiches:</p>
+                        <ol>
+                          <li>Texas Toast BBQ Grilled Cheese</li>
+                          <ul>
+                            <li>Smoked cheddar and pulled chicken or pork sandwiched between
+                              two
+                              slices
+                              of Texas toast, grilled to perfection.</li>
+                          </ul>
+                          <li>Spicy Jalapeño Brisket Melt</li>
+                          <ul>
+                            <li>Sliced brisket, jalapeños, pepper jack cheese, and barbecue
+                              sauce on
+                              a
+                              toasted ciabatta roll.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Bowls:</p>
+                        <ol>
+                          <li>Smoked Chicken Mac 'n' Cheese Bowl</li>
+                          <ul>
+                            <li>Smoked chicken over creamy mac 'n' cheese, topped with
+                              crispy
+                              fried
+                              onions.</li>
+                          </ul>
+                          <li>BBQ Loaded Potato Bowl</li>
+                          <ul>
+                            <li>Smoked pulled pork, cheddar cheese, sour cream, and green
+                              onions
+                              over a loaded baked potato.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">Sides and Snacks:</p>
+                        <ol>
+                          <li>Southern Cornbread Muffins</li>
+                          <ul>
+                            <li>Sweet and savory cornbread muffins served with honey butter.
+                            </li>
+                          </ul>
+                          <li>Crispy BBQ Tater Tots</li>
+                          <ul>
+                            <li>Tater tots tossed in barbecue seasoning, served with
+                              chipotle
+                              mayo.
+                            </li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Tacos:</p>
+                        <ol>
+                          <li>Smoked Brisket Tacos</li>
+                          <ul>
+                            <li>Sliced brisket, pickled red onions, and cotija cheese in
+                              corn
+                              tortillas, drizzled with barbecue sauce.</li>
+                          </ul>
+                          <li>Pulled Chicken Street Tacos</li>
+                          <ul>
+                            <li>Pulled chicken, pico de gallo, and avocado crema in small
+                              flour
+                              tortillas</li>
+                          </ul>
+                        </ol>
+
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger">Close Menu</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Smokin' Roadhouse BBQ -->
+
+      <!-- Start of Sabor Street Eats -->
+      <div class="col d-flex justify-content-center">
+        <div class="card" style="width: 38rem;">
+          <img src="../assets/SaborStreetEats.jpg" class="card-img-top p-4 pb-2" alt="...">
+          <div class="card-body px-4">
+            <h3 class="card-title fw-bold">Sabor Street Eats</h5>
+              <p class="card-text">Sabor Street Eats is the best all-around Mexican food truck in Stockton. They began
+                serving during Covid and have had great success since.</p>
+              <h3 class="card-title fw-bold">Crowd Favorites</h5>
+                <p class="card-text fw-bold">Carne Asada Tacos</p>
+                <p class="card-text">Grilled marinated steak topped with diced onions, cilantro, and a squeeze of lime.
+                </p>
+                <hr>
+                <p class="card-text fw-bold">Al Pastor Tacos</p>
+                <p class="card-text">Spit-roasted pork with pineapple, onions, and fresh cilantro.</p>
+                <hr>
+                <p class="card-text fw-bold">Flaming Hot Cheetos Elote</p>
+                <p class="card-text">A spicy twist with crushed Flaming Hot Cheetos coating the elote.</p>
+                <hr>
+
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Full Menu
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Sabor Street Eats</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p class="fw-bold">Street Tacos:</p>
+                        <ol>
+                          <li>Pulled Pork Sandwich</li>
+                          <ul>
+                            <li>Slow-smoked pulled pork piled high on a soft bun, topped
+                              with
+                              coleslaw
+                              and drizzled with tangy barbecue sauce.</li>
+                          </ul>
+                          <li>Beef Brisket Platter</li>
+                          <ul>
+                            <li>Tender slices of smoked beef brisket served with pickles,
+                              onions,
+                              and a
+                              side of barbecue sauce.</li>
+                          </ul>
+                          <li>St. Louis Style Ribs</li>
+                          <ul>
+                            <li>Fall-off-the-bone St. Louis-style ribs, dry-rubbed and
+                              glazed
+                              with a
+                              sweet and spicy barbecue sauce.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Sandwiches:</p>
+                        <ol>
+                          <li>Texas Toast BBQ Grilled Cheese</li>
+                          <ul>
+                            <li>Smoked cheddar and pulled chicken or pork sandwiched between
+                              two
+                              slices
+                              of Texas toast, grilled to perfection.</li>
+                          </ul>
+                          <li>Spicy Jalapeño Brisket Melt</li>
+                          <ul>
+                            <li>Sliced brisket, jalapeños, pepper jack cheese, and barbecue
+                              sauce on
+                              a
+                              toasted ciabatta roll.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Bowls:</p>
+                        <ol>
+                          <li>Smoked Chicken Mac 'n' Cheese Bowl</li>
+                          <ul>
+                            <li>Smoked chicken over creamy mac 'n' cheese, topped with
+                              crispy
+                              fried
+                              onions.</li>
+                          </ul>
+                          <li>BBQ Loaded Potato Bowl</li>
+                          <ul>
+                            <li>Smoked pulled pork, cheddar cheese, sour cream, and green
+                              onions
+                              over a loaded baked potato.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">Sides and Snacks:</p>
+                        <ol>
+                          <li>Southern Cornbread Muffins</li>
+                          <ul>
+                            <li>Sweet and savory cornbread muffins served with honey butter.
+                            </li>
+                          </ul>
+                          <li>Crispy BBQ Tater Tots</li>
+                          <ul>
+                            <li>Tater tots tossed in barbecue seasoning, served with
+                              chipotle
+                              mayo.
+                            </li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Tacos:</p>
+                        <ol>
+                          <li>Smoked Brisket Tacos</li>
+                          <ul>
+                            <li>Sliced brisket, pickled red onions, and cotija cheese in
+                              corn
+                              tortillas, drizzled with barbecue sauce.</li>
+                          </ul>
+                          <li>Pulled Chicken Street Tacos</li>
+                          <ul>
+                            <li>Pulled chicken, pico de gallo, and avocado crema in small
+                              flour
+                              tortillas</li>
+                          </ul>
+                        </ol>
+
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger">Close Menu</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Sabor Street Eats -->
+    </div>
+    <!-- End of first row -->
+
+    <!-- Start of second row -->
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <!-- Start of Smokin' Roadhouse BBQ -->
+        <div class="card" style="width: 38rem;">
+          <img src="../assets/SmokinRoadhouseBBQ.jpg" class="card-img-top p-4 pb-2" alt="...">
+          <div class="card-body px-4">
+            <h3 class="card-title fw-bold">Smokin' Roadhouse BBQ</h5>
+              <p class="card-text">Started by the Jones family in 1989 this amazing BBQ food truck has
+                over
+                1,000
+                5 star reviews across the board. They are the best around when it comes to anything and
+                everything
+                BBQ.
+              </p>
+              <h3 class="card-title fw-bold">Crowd Favorites</h5>
+                <p class="card-text fw-bold">Pulled Pork Sandwich</p>
+                <p class="card-text">Slow-smoked pulled pork piled high on a soft bun, topped with
+                  coleslaw
+                  and
+                  drizzled with tangy barbecue sauce.</p>
+                <hr>
+                <p class="card-text fw-bold">Beef Brisket Platter</p>
+                <p class="card-text">Tender slices of smoked beef brisket served with pickles, onions,
+                  and a
+                  side of
+                  barbecue sauce.</p>
+                <hr>
+                <p class="card-text fw-bold">Spicy Jalapeño Brisket Melt</p>
+                <p class="card-text">Sliced brisket, jalapeños, pepper jack cheese, and barbecue sauce
+                  on a
+                  toasted
+                  ciabatta roll.</p>
+                <hr>
+
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Full Menu
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Smokin' Roadhouse
+                          BBQ
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p class="fw-bold">Entrees:</p>
+                        <ol>
+                          <li>Pulled Pork Sandwich</li>
+                          <ul>
+                            <li>Slow-smoked pulled pork piled high on a soft bun, topped
+                              with
+                              coleslaw
+                              and drizzled with tangy barbecue sauce.</li>
+                          </ul>
+                          <li>Beef Brisket Platter</li>
+                          <ul>
+                            <li>Tender slices of smoked beef brisket served with pickles,
+                              onions,
+                              and a
+                              side of barbecue sauce.</li>
+                          </ul>
+                          <li>St. Louis Style Ribs</li>
+                          <ul>
+                            <li>Fall-off-the-bone St. Louis-style ribs, dry-rubbed and
+                              glazed
+                              with a
+                              sweet and spicy barbecue sauce.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Sandwiches:</p>
+                        <ol>
+                          <li>Texas Toast BBQ Grilled Cheese</li>
+                          <ul>
+                            <li>Smoked cheddar and pulled chicken or pork sandwiched between
+                              two
+                              slices
+                              of Texas toast, grilled to perfection.</li>
+                          </ul>
+                          <li>Spicy Jalapeño Brisket Melt</li>
+                          <ul>
+                            <li>Sliced brisket, jalapeños, pepper jack cheese, and barbecue
+                              sauce on
+                              a
+                              toasted ciabatta roll.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Bowls:</p>
+                        <ol>
+                          <li>Smoked Chicken Mac 'n' Cheese Bowl</li>
+                          <ul>
+                            <li>Smoked chicken over creamy mac 'n' cheese, topped with
+                              crispy
+                              fried
+                              onions.</li>
+                          </ul>
+                          <li>BBQ Loaded Potato Bowl</li>
+                          <ul>
+                            <li>Smoked pulled pork, cheddar cheese, sour cream, and green
+                              onions
+                              over a loaded baked potato.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">Sides and Snacks:</p>
+                        <ol>
+                          <li>Southern Cornbread Muffins</li>
+                          <ul>
+                            <li>Sweet and savory cornbread muffins served with honey butter.
+                            </li>
+                          </ul>
+                          <li>Crispy BBQ Tater Tots</li>
+                          <ul>
+                            <li>Tater tots tossed in barbecue seasoning, served with
+                              chipotle
+                              mayo.
+                            </li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Tacos:</p>
+                        <ol>
+                          <li>Smoked Brisket Tacos</li>
+                          <ul>
+                            <li>Sliced brisket, pickled red onions, and cotija cheese in
+                              corn
+                              tortillas, drizzled with barbecue sauce.</li>
+                          </ul>
+                          <li>Pulled Chicken Street Tacos</li>
+                          <ul>
+                            <li>Pulled chicken, pico de gallo, and avocado crema in small
+                              flour
+                              tortillas</li>
+                          </ul>
+                        </ol>
+
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger">Close Menu</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Smokin' Roadhouse BBQ -->
+
+      <!-- Start of Sabor Street Eats -->
+      <div class="col d-flex justify-content-center">
+        <div class="card" style="width: 38rem;">
+          <img src="../assets/SaborStreetEats.jpg" class="card-img-top p-4 pb-2" alt="...">
+          <div class="card-body px-4">
+            <h3 class="card-title fw-bold">Sabor Street Eats</h5>
+              <p class="card-text">Sabor Street Eats is the best all-around Mexican food truck in Stockton. They began
+                serving during Covid and have had great success since.</p>
+              <h3 class="card-title fw-bold">Crowd Favorites</h5>
+                <p class="card-text fw-bold">Carne Asada Tacos</p>
+                <p class="card-text">Grilled marinated steak topped with diced onions, cilantro, and a squeeze of lime.
+                </p>
+                <hr>
+                <p class="card-text fw-bold">Al Pastor Tacos</p>
+                <p class="card-text">Spit-roasted pork with pineapple, onions, and fresh cilantro.</p>
+                <hr>
+                <p class="card-text fw-bold">Flaming Hot Cheetos Elote</p>
+                <p class="card-text">A spicy twist with crushed Flaming Hot Cheetos coating the elote.</p>
+                <hr>
+
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Full Menu
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Smokin' Roadhouse
+                          BBQ
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p class="fw-bold">Entrees:</p>
+                        <ol>
+                          <li>Pulled Pork Sandwich</li>
+                          <ul>
+                            <li>Slow-smoked pulled pork piled high on a soft bun, topped
+                              with
+                              coleslaw
+                              and drizzled with tangy barbecue sauce.</li>
+                          </ul>
+                          <li>Beef Brisket Platter</li>
+                          <ul>
+                            <li>Tender slices of smoked beef brisket served with pickles,
+                              onions,
+                              and a
+                              side of barbecue sauce.</li>
+                          </ul>
+                          <li>St. Louis Style Ribs</li>
+                          <ul>
+                            <li>Fall-off-the-bone St. Louis-style ribs, dry-rubbed and
+                              glazed
+                              with a
+                              sweet and spicy barbecue sauce.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Sandwiches:</p>
+                        <ol>
+                          <li>Texas Toast BBQ Grilled Cheese</li>
+                          <ul>
+                            <li>Smoked cheddar and pulled chicken or pork sandwiched between
+                              two
+                              slices
+                              of Texas toast, grilled to perfection.</li>
+                          </ul>
+                          <li>Spicy Jalapeño Brisket Melt</li>
+                          <ul>
+                            <li>Sliced brisket, jalapeños, pepper jack cheese, and barbecue
+                              sauce on
+                              a
+                              toasted ciabatta roll.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Bowls:</p>
+                        <ol>
+                          <li>Smoked Chicken Mac 'n' Cheese Bowl</li>
+                          <ul>
+                            <li>Smoked chicken over creamy mac 'n' cheese, topped with
+                              crispy
+                              fried
+                              onions.</li>
+                          </ul>
+                          <li>BBQ Loaded Potato Bowl</li>
+                          <ul>
+                            <li>Smoked pulled pork, cheddar cheese, sour cream, and green
+                              onions
+                              over a loaded baked potato.</li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">Sides and Snacks:</p>
+                        <ol>
+                          <li>Southern Cornbread Muffins</li>
+                          <ul>
+                            <li>Sweet and savory cornbread muffins served with honey butter.
+                            </li>
+                          </ul>
+                          <li>Crispy BBQ Tater Tots</li>
+                          <ul>
+                            <li>Tater tots tossed in barbecue seasoning, served with
+                              chipotle
+                              mayo.
+                            </li>
+                          </ul>
+                        </ol>
+
+                        <p class="fw-bold">BBQ Tacos:</p>
+                        <ol>
+                          <li>Smoked Brisket Tacos</li>
+                          <ul>
+                            <li>Sliced brisket, pickled red onions, and cotija cheese in
+                              corn
+                              tortillas, drizzled with barbecue sauce.</li>
+                          </ul>
+                          <li>Pulled Chicken Street Tacos</li>
+                          <ul>
+                            <li>Pulled chicken, pico de gallo, and avocado crema in small
+                              flour
+                              tortillas</li>
+                          </ul>
+                        </ol>
+
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger">Close Menu</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Sabor Street Eats -->
+
+
+
+
+    </div>
+    <!-- End of second row -->
+
+
+
+
+
+  </div>
+  <!-- End of Container -->
+
+
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
