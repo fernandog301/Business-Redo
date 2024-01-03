@@ -1,0 +1,74 @@
+.background{
+    background: url(../assets/ricepaper.webp);
+    background-repeat: repeat;
+
+}
+
+/* footer starter */
+
+.backgroundFooter{
+    background-color: #414594;
+
+}
+
+.footerTitleTxt{
+    color: #fff;
+    font-family: EBGaramond-Bold;
+    font-size: 30px;
+}
+.footerBodyTitleTxt{
+    color: #fff;
+    font-family: Oswald-regular;
+    font-size: 14px;
+}
+
+.footerBodyTxt{
+    color: #fff;
+    font-family: Oswald-Light;
+    font-size: 14px;
+}
+.bodyTitleTxt{
+    color: #000;
+    font-family: Oswald-regular;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bodyTxt{
+    color: #000;
+    font-family: Oswald-Light;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* End starter */
+
+/* Fonts */
+@font-face {
+    font-family: EBGaramond-Bold;
+    src: url(../Fonts/EBGaramond-Bold.ttf);
+}
+
+@font-face {
+    font-family: EBGaramond-Regular;
+    src: url(../Fonts/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oswald-Bold;
+    src: url(../Fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: Oswald-Regular;
+    src: url(../Fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: Oswald-Light;
+    src: url(../Fonts/Oswald-Light.ttf);
+}
+/* End Fonts */
