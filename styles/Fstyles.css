@@ -35,13 +35,32 @@
     font-weight: 400;
     line-height: normal;
 }
+.bodyTitleImgTxt{
+    color: #000;
+    font-family: Oswald-regular;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    vertical-align: middle;
+    text-align: center;
+    padding: 12px 20px;
+
+}
 .bodyTxt{
     color: #000;
     font-family: Oswald-Light;
     font-size: 30px;
     font-style: normal;
+    vertical-align: middle;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
+    padding: 12px 20px;
+
+}
+.backgroundBody{
+    background-color: #fff;
 }
 
 

@@ -9,40 +9,88 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/Fstyles.css">
+    <link rel="stylesheet" href="./styles/Jstyles.css">
 </head>
 
 <body class="background">
 
-
-
-
-
-
+    <!-- STart Nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../assets/stocklandia logo.png" class="logoResize"
+              alt="Stocklandia Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-underline ms-auto">
+              <a class="nav-link" href="../pages/AboutPage.html">About</a>
+              <a class="nav-link" href="../pages/OurTrucks.html">Our Trucks</a>
+              <a class="nav-link" href="../pages/ApplicationPage.html">Become A Vendor</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <!-- end of NaV -->
 
 
-    <div class="container-fluid p-0">
+    <div class="container-fluid pb-5 pt-5">
         <video width="max" height="max" controls>
             <source src="" type="">
             Your browser doesn't support the video tag.
         </video>
     </div>
 
-    <div class="container-fluid mt-4">
+    <div class="container-fluid backgroundBody">
         <div class="row">
-            <div class="col ">
-                <img src="./assets/" class="img-fluid rounded-start" alt="...">
+            <div class="col-lg-6">
+                <img src="./assets/CarImage.jpg" class="img-fluid rounded-start" alt="...">
             </div>
-            <div class="col ">
+            <div class="col-lg-6">
                 <div class="row card-body">
                     <p class="bodyTitleTxt card-title">Hungry, but the family can’t decide what to eat?</p>
                 </div>
-                <div class="row">
-                    <p class="bodyTxt card-text">At Stocklandia, there’s always something for everyone. Come out and taste a variety of dishes and
+
+                <div class="row d-flex justify-content-center">
+                    <p class="bodyTxt card-text">At Stocklandia, there’s always something for everyone. Come out and
+                        taste a variety of dishes and
                         support local businesses. With rotating vendors every week, you are sure to find new flavors
                         each time you visit.</p>
                 </div>
+            </div>
+        </div>
+    </div>
 
+
+
+    <div class="container  pt-5 pb-3">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col">
+                <div class="row d-flex justify-content-center">
+                    <img src="./assets/Index1.jpg" alt="" style="width: 25rem;" class="card-img">
+                </div>
+                <div class="row d-flex justify-content-center pt-3">
+                    <p class="bodyTitleImgTxt d-flex justify-content-center">Wok-Star Express</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row d-flex justify-content-center">
+                    <img src="./assets/Index2.jpg" alt="" style="width: 25rem;" class="card-img">
+                </div>
+                <div class="row pt-3">
+                    <p class="bodyTitleImgTxt d-flex justify-content-center">Slice on Wheels</p>
+                </div>
+            </div>
+
+            <div class="col ">
+                <div class="row d-flex justify-content-center">
+                    <img src="./assets/Index3.jpg" alt="" style="width: 25rem;" class="card-img">
+                </div>
+                <div class="row pt-3">
+                    <p class="bodyTitleImgTxt d-flex justify-content-center">Sabor Street Eats</p>
+                </div>
             </div>
         </div>
     </div>
@@ -55,13 +103,9 @@
 
 
 
-
-
-
-
     <!-- Start footer -->
 
-    <div class="container-fluid backgroundFooter  text-center fixed-bottom p-3">
+    <div class="container-fluid backgroundFooter  text-center  p-3">
         <div class="row m-3">
             <div class="col">
                 <p class="footerTitleTxt">Schedule</p>
