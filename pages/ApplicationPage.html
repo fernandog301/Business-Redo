@@ -35,26 +35,70 @@
     <!-- end Nav -->
 
 
-    <div class="container p-5 d-flex justify-content-center align-items-center backgroundBody">
+    <div class="container p-5 mt-4 mb-5 backgroundBody">
         <div class="row">
             <p> Vendor Application </p>
         </div>
         <div class="row">
+
+            <label for="name_of_food_truck">Name of the Food Truck(required)</label>
+            <input type="text" id="name_of_food_truck" name="name_of_food_truck" required>
+
+        </div>
+        <div class="row">
+            Owners's Name(required)
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="col">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+        </div>
+        <div class="row">
+            <label for="email">Email Address (required)</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="row">
+            <label for="currenttruck">Do you currently have a food truck? (required)</label>
             
-            <input type="text" label="phone number">
+                <button value="yes">yes</button>
+                <button value="no">no</button>
             
         </div>
         <div class="row">
-            <input type="text" name="" id="">
+            <label for="heardabout">How did you hear about us?</label>
+            <input type="text" id="heardabout" name="heardabout">
         </div>
         <div class="row">
-        <input type="text">
+            <label for="leasing">Are you in the process of leasing/ purchasing a food truck?</label>
+            
+                <button value="yes">yes</button>
+                <button value="no"> no</button>
         </div>
-
-
-
-
+        <div class="row">
+            <label for="counties">Please list all the counties that you are currently permitted in: (required)</label>
+            <input id="counties" name="counties" required> </input>
+        </div>
+        <div class="row">
+            <label for="phone">Phone Number (required)</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
