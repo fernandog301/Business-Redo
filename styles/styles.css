@@ -19,3 +19,7 @@
     src: url(../Fonts/Oswald-Regular.ttf);
 }
 /* End Fonts */
+body{
+    background: url(../assets/ricepaper.webp);
+    background-repeat: repeat;
+}
