@@ -71,8 +71,19 @@ body{
 
 
 }
+
+.VendorsTitleTxt{
+    
+    font-family: Oswald-Light;
+
+}
+
+
 .testRun{
+
     width: 2%;
+
+
 }
 
 
