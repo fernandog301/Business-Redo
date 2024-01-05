@@ -13,12 +13,12 @@ body{
 
 .footerTitleTxt{
     color: #fff;
-    font-family: EBGaramond-Bold;
+    font-family: Oswald-regular;
     font-size: 30px;
 }
 .footerBodyTitleTxt{
     color: #fff;
-    font-family: Oswald-regular;
+    font-family: EBGaramond-Bold;
     font-size: 14px;
 }
 
@@ -73,7 +73,7 @@ body{
 }
 
 .VendorsTitleTxt{
-    
+
     font-family: Oswald-Light;
 
 }
