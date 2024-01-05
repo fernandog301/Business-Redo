@@ -86,12 +86,24 @@ body{
     vertical-align: middle;
     text-align: center;
 }
+.marg{
+    margin-bottom: 100px;
+}
 
 .border{
     padding: 3% 6% 6% 6%
-    
 }
-
+.fontSizeBold64 {
+    font-size: 64px;
+    font-family: Oswald-Bold;
+}
+.fontSizeBold36 {
+    font-size: 36px;
+    font-family: Oswald-Bold;
+}
+.borderAbout{
+    padding: 1% 96px 125px 96px
+}
 
 
 .VendorsTitleTxt{
