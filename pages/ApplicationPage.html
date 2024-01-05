@@ -35,29 +35,29 @@
     <!-- end Nav -->
 
 
-    <div class="container border my-5 d-none d-sm-block navBarColor " style="width: 1000px" >
+    <div class="container border my-5 d-none d-sm-block navBarColor " style="max-width: 1000px;" >
         <div class="row ">
-            <p class="VendorsApplicationTxt text-center"> Vendor Application </p>
+            <p class="VendorsApplicationTxt text-center">Vendor Application</p>
         </div>
         <div class="row py-3">
 
             <label class="VendorsTxt" for="name_of_food_truck">Name of the Food Truck (required)</label>
-            <input type="text" class="inputHeight" id="name_of_food_truck" name="name_of_food_truck" required>
+            <input type="text" class="inputHeight p-0" id="name_of_food_truck" name="name_of_food_truck" required>
 
         </div>
         <div class="row py-2">
-            <p class="ownersNameTxt m-0">Owners's Name (required)</p>
+            <p class="ownersNameTxt m-0">Owner's Name (required)</p>
         </div>
         <div class="row py-3">
-            <div class="col-6">
+            <div class="col-5">
                 <div class="row">
                     <label class="VendorsTxt" for="first_name">First Name</label>
                 </div>
                 <div class="row">
-                    <input type="text" class="inputHeight" id="first_name" name="first_name" required>
+                    <input type="text" class="inputHeight px-0" id="first_name" name="first_name" required>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-5 ms-auto">
                 <div class="row">
                     <label class="VendorsTxt" for="last_name">Last Name</label>
                 </div>
@@ -105,7 +105,7 @@
         <!-- buttons -->
 
         <div class="row py-3">
-            <label class="VendorsTxt" for="counties">Please list all the counties that you are currently permitted in:
+            <label class="VendorsTxt" for="counties">Please list all the counties that you are currently permitted in
                 (required)</label>
             <input id="counties" class="inputHeight" name="counties" required> </input>
         </div>
@@ -159,25 +159,25 @@
         <div class="row pt-5 pb-4 ">
             <p class="VendorsApplicationTxt text-center"> Vendor Application </p>
         </div>
-        <div class="row">
+        <div class="row py-3">
 
             <label class="VendorsTxt text-center " for="name_of_food_truck">Name of the Food Truck (required)</label>
             <input type="text" class="inputHeight" id="name_of_food_truck" name="name_of_food_truck" required>
 
         </div>
-        <div class="row  navColumn">
-            <p class="ownersNameTxt text-center">Owners's Name (required)</p>
-        </div>
         <div class="row">
+            <p class="ownersNameTxt text-center pt-3 m-0">Owner's Name (required)</p>
+        </div>
+        <div class="row pb-3">
                     <input type="text" class="inputHeight" id="last_name" name="last_name" required>
         </div>
-        <div class="row pt">
+        <div class="row py-3">
             <label class="VendorsTxt text-center" for="email">Email Address (required)</label>
             <input type="email" class="inputHeight" id="email" name="email" required>
         </div>
         <!-- buttons -->
-        <div class="row">
-            <label class="VendorsTxt text-center" for="currenttruck">Do you currently have a food truck? (required)</label>
+        <div class="row py-3">
+            <label class="VendorsTxt" for="currenttruck">Do you currently have a food truck? (required)</label>
 
             <div class="col-12">
                 <input type="radio" class="testRun" id="Yes1" name="Yes" value="question1" for="Yes" />
@@ -192,13 +192,10 @@
             <!--buttons  -->
 
         </div>
-        <div class="row">
-            <label class="VendorsTxt text-center" for="heardabout">How did you hear about us?</label>
-            <input type="text" class="inputHeight" id="heardabout" name="heardAbout">
-        </div>
+        
 
-        <div class="row">
-            <label class="VendorsTxt text-center" for="leasing">Are you in the process of leasing/ purchasing a food truck?</label>
+        <div class="row py-3">
+            <label class="VendorsTxt" for="leasing">Are you in the process of leasing/ purchasing a food truck?</label>
 
             <!-- button -->
             <div class="col-12">
@@ -213,12 +210,16 @@
         </div>
         <!-- buttons -->
 
-        <div class="row">
-            <label class="VendorsTxt text-center" for="counties">Please list all the counties that you are currently permitted in:
+        <div class="row py-3">
+            <label class="VendorsTxt text-center" for="counties">Please list all the counties that you are currently permitted in
                 (required)</label>
             <input id="counties" class="inputHeight" name="counties" required> </input>
         </div>
-        <div class="row">
+        <div class="row py-3">
+            <label class="VendorsTxt text-center" for="heardabout">How did you hear about us?</label>
+            <input type="text" class="inputHeight" id="heardabout" name="heardAbout">
+        </div>
+        <div class="row py-3">
             <label class="VendorsTxt text-center" for="phone">Phone Number (required)</label>
             <input type="tel" id="phone" class="inputHeight" name="phone" required>
         </div>
