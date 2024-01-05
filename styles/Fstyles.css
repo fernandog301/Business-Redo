@@ -71,12 +71,33 @@ body{
 
 
 }
+.ownersNameTxt{
+    color: #000;
+    font-family: EBGaramond-Regular;
+    font-size: 20px;
+    font-style: normal;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.VendorsApplicationTxt{
+    color: #000;
+    font-family: Oswald-regular;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    vertical-align: middle;
+    text-align: center;
+}
 
 .VendorsTitleTxt{
 
     font-family: Oswald-Light;
 
 }
+
 
 
 .testRun{
