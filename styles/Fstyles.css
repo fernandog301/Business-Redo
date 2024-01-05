@@ -68,6 +68,12 @@ body{
     padding-right: 5rem !important;
 }
 
+.oswald{
+    font-family: Oswald-regular;
+    color: #000;
+    font-size: 64px;
+}
+
 .VendorsApplicationTxt{
     color: #000;
     font-family: Oswald-regular;

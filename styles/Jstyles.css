@@ -30,6 +30,7 @@
     font-family: Oswald-Regular;
 }
 
+
 .fontSize36 {
     font-size: 36px;
 }
@@ -41,11 +42,22 @@
 
 .fontSize24 {
     font-size: 24px;
-}
-
-.ebGaramond {
     font-family: EBGaramond-Regular;
 }
+.fontSizeOs24{
+    font-size: 24px;
+    font-family: Oswald-Regular;
+}
+
+.fontSize16 {
+    font-family: EBGaramond-Regular;
+    font-size: 16px;
+}
+.fontSizeBold16{
+    font-size: 16;
+    font-family: EBGaramond-Bold;
+}
+
 
 /* Should make a media query for font sizes later on for better responsiveness */
 
