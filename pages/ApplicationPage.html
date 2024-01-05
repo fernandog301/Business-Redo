@@ -35,26 +35,26 @@
     <!-- end Nav -->
 
 
-    <div class="container VendersColumn d-none d-sm-block navBarColor">
+    <div class="container border my-5 d-none d-sm-block navBarColor " style="width: 1000px" >
         <div class="row ">
             <p class="VendorsApplicationTxt text-center"> Vendor Application </p>
         </div>
-        <div class="row">
+        <div class="row py-3">
 
-            <label class="VendorsTxt " for="name_of_food_truck">Name of the Food Truck (required)</label>
-            <input type="text" id="name_of_food_truck" name="name_of_food_truck" required>
+            <label class="VendorsTxt" for="name_of_food_truck">Name of the Food Truck (required)</label>
+            <input type="text" class="inputHeight" id="name_of_food_truck" name="name_of_food_truck" required>
 
         </div>
-        <div class="row  navColumn">
-            <p class="ownersNameTxt ">Owners's Name (required)</p>
+        <div class="row py-2">
+            <p class="ownersNameTxt m-0">Owners's Name (required)</p>
         </div>
-        <div class="row">
+        <div class="row py-3">
             <div class="col-6">
                 <div class="row">
                     <label class="VendorsTxt" for="first_name">First Name</label>
                 </div>
                 <div class="row">
-                    <input type="text" id="first_name" name="first_name" required>
+                    <input type="text" class="inputHeight" id="first_name" name="first_name" required>
                 </div>
             </div>
             <div class="col-6">
@@ -62,16 +62,16 @@
                     <label class="VendorsTxt" for="last_name">Last Name</label>
                 </div>
                 <div class="row">
-                    <input type="text" id="last_name" name="last_name" required>
+                    <input type="text"  class="inputHeight" id="last_name" name="last_name" required>
                 </div>
             </div>
         </div>
-        <div class="row pt">
+        <div class="row py-3">
             <label class="VendorsTxt" for="email">Email Address (required)</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" class="inputHeight" name="email" required>
         </div>
         <!-- buttons -->
-        <div class="row">
+        <div class="row py-3">
             <label class="VendorsTxt" for="currenttruck">Do you currently have a food truck? (required)</label>
 
             <div class="col-12">
@@ -87,12 +87,8 @@
             <!--buttons  -->
 
         </div>
-        <div class="row">
-            <label class="VendorsTxt" for="heardabout">How did you hear about us?</label>
-            <input type="text" id="heardabout" name="heardAbout">
-        </div>
 
-        <div class="row">
+        <div class="row py-3">
             <label class="VendorsTxt" for="leasing">Are you in the process of leasing/ purchasing a food truck?</label>
 
             <!-- button -->
@@ -108,20 +104,24 @@
         </div>
         <!-- buttons -->
 
-        <div class="row">
+        <div class="row py-3">
             <label class="VendorsTxt" for="counties">Please list all the counties that you are currently permitted in:
                 (required)</label>
-            <input id="counties" name="counties" required> </input>
+            <input id="counties" class="inputHeight" name="counties" required> </input>
         </div>
-        <div class="row">
+        <div class="row py-3">
+            <label class="VendorsTxt" for="heardabout">How did you hear about us?</label>
+            <input type="text" class="inputHeight" id="heardabout" name="heardAbout">
+        </div>
+        <div class="row py-3">
             <label class="VendorsTxt" for="phone">Phone Number (required)</label>
-            <input type="tel" id="phone" name="phone" required>
+            <input type="tel" id="phone" class="inputHeight" name="phone" required>
         </div>
 
         <br>
         <!-- Button trigger modal -->
         <div class="col d-flex justify-content-center">
-            <button type="button" class="btn btn-primary backgroundFooter" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <button type="button" class="btn btn-primary backgroundFooter submitBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 Submit
             </button>
 
@@ -162,18 +162,18 @@
         <div class="row">
 
             <label class="VendorsTxt text-center " for="name_of_food_truck">Name of the Food Truck (required)</label>
-            <input type="text" class="" id="name_of_food_truck" name="name_of_food_truck" required>
+            <input type="text" class="inputHeight" id="name_of_food_truck" name="name_of_food_truck" required>
 
         </div>
         <div class="row  navColumn">
             <p class="ownersNameTxt text-center">Owners's Name (required)</p>
         </div>
         <div class="row">
-                    <input type="text" id="last_name" name="last_name" required>
+                    <input type="text" class="inputHeight" id="last_name" name="last_name" required>
         </div>
         <div class="row pt">
             <label class="VendorsTxt text-center" for="email">Email Address (required)</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" class="inputHeight" id="email" name="email" required>
         </div>
         <!-- buttons -->
         <div class="row">
@@ -194,7 +194,7 @@
         </div>
         <div class="row">
             <label class="VendorsTxt text-center" for="heardabout">How did you hear about us?</label>
-            <input type="text" id="heardabout" name="heardAbout">
+            <input type="text" class="inputHeight" id="heardabout" name="heardAbout">
         </div>
 
         <div class="row">
@@ -216,17 +216,17 @@
         <div class="row">
             <label class="VendorsTxt text-center" for="counties">Please list all the counties that you are currently permitted in:
                 (required)</label>
-            <input id="counties" name="counties" required> </input>
+            <input id="counties" class="inputHeight" name="counties" required> </input>
         </div>
         <div class="row">
             <label class="VendorsTxt text-center" for="phone">Phone Number (required)</label>
-            <input type="tel" id="phone" name="phone" required>
+            <input type="tel" id="phone" class="inputHeight" name="phone" required>
         </div>
 
         <br>
         <!-- Button trigger modal -->
         <div class="col d-flex justify-content-center">
-            <button type="button" class="btn btn-primary px-5 text-center backgroundFooter" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <button type="button" class="btn btn-primary submitBtn text-center backgroundFooter" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 Submit
             </button>
 

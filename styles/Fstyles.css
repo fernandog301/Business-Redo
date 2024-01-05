@@ -47,27 +47,44 @@ body{
 .VendorsTxt{
     color: #000;
     font-family: EBGaramond-Regular;
+    font-size: 20px;
 }
 .ownersNameTxt{
     color: #000;
     font-family: EBGaramond-Regular;
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     vertical-align: middle;
     font-weight: 400;
     line-height: normal;
     text-align: center;
 }
+.inputHeight{
+    height: 40px;
+}
+
+.submitBtn{
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+}
+
 .VendorsApplicationTxt{
     color: #000;
     font-family: Oswald-regular;
-    font-size: 25px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     vertical-align: middle;
     text-align: center;
 }
+
+.border{
+    padding: 3% 6% 6% 6%
+    
+}
+
+
 
 .VendorsTitleTxt{
 
@@ -120,7 +137,7 @@ body{
 
 /* media Mobile */
 
-@media only screen and (max-width: 410px){
+/* @media only screen and (max-width: 410px){
     .cardp{
         padding-right: 1%;
         padding-left: 3%;
@@ -155,63 +172,3 @@ body{
         font-family: FugazOne;
         color: #5F002B;
         /* text-align: center; */
-    }
-    .homepad{
-        padding-left: 6%;
-        padding-right: 4%;
-
-    }
-    .padii{
-        padding-top: 5%;
-    }
-    .s{
-        padding-right: 103.8%;
-        opacity: 0;
-
-    }
-    .VendersColumn{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .Venders-item {
-        margin: 0 10px;
-    }
-    .bodyTextMove1{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    
-    .bodyTextMove2{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-}
-
-
-
-/* @media (min-width: 1450px) {
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-        max-width: 1300px;
-    }
-}    
-@media (min-width: 1650px) {
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-        max-width: 1600px;
-    }
-}     */
-
-
