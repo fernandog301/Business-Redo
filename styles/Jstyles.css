@@ -16,6 +16,7 @@
     color: white;
     /* border: 5px solid red; */
     /* text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black; */
+    outline: 1px solid red;
     fill: white;
     stroke: red;
     stroke-width: 5px;
@@ -40,11 +41,12 @@
 
 .fontSize24 {
     font-size: 24px;
-} 
+}
 
 .ebGaramond {
     font-family: EBGaramond-Regular;
 }
+
 /* Should make a media query for font sizes later on for better responsiveness */
 
 .stocklandiaNightResize {
@@ -68,4 +70,47 @@
 
 .landingPadding {
     padding: 50px 150px 20px 150px;
+}
+
+.landingPaddingMobile {
+    padding: 70px 50px 70px 50px;
+}
+
+@media (min-width: 320px) {
+    .landingHeader {
+        font-size: calc(1.875rem + ((1vw - 3.2px) * 0.5357));
+        min-height: 0vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .landingHeader {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 320px) {
+    .landingText {
+        font-size: calc(1.625rem + ((1vw - 3.2px) * 0.3571));
+        min-height: 0vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .landingText {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 320px) {
+    .trucksHeader {
+        font-size: calc(2.5rem + ((1vw - 3.2px) * 2.1429));
+        min-height: 0vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .trucksHeader {
+        font-size: 64px;
+    }
 }

@@ -29,7 +29,7 @@ body{
 .bodyTitleTxt{
     color: #000;
     font-family: Oswald-regular;
-    font-size: 36px;
+    /* font-size: 36px; */
 }
 .bodyTitleImgTxt{
     color: #000;
