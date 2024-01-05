@@ -35,57 +35,114 @@
     <!-- end Nav -->
 
 
-    <div class="container p-5 mt-4 mb-5 backgroundBody">
-        <div class="row">
-            <p> Vendor Application </p>
+    <div class="container m-5 p-5 mt-4 mb-5 backgroundBody">
+        <div class="row ">
+            <p class="VendorsTxt text-center"> Vendor Application </p>
         </div>
         <div class="row">
 
-            <label for="name_of_food_truck">Name of the Food Truck(required)</label>
+            <label class="VendorsTxt" for="name_of_food_truck">Name of the Food Truck(required)</label>
             <input type="text" id="name_of_food_truck" name="name_of_food_truck" required>
 
         </div>
         <div class="row">
-            Owners's Name(required)
+            <p class="VendorsTxt text-center">Owners's Name(required)</p>
         </div>
         <div class="row">
-            <div class="col">
-                <label for="first_name">First Name</label>
-                <input type="text" id="first_name" name="first_name" required>
+            <div class="col-6">
+                <div class="row">
+                    <label class="VendorsTxt" for="first_name">First Name</label>
+                </div>
+                <div class="row">
+                    <input type="text" id="first_name" name="first_name" required>
+                </div>
             </div>
-            <div class="col">
-                <label for="last_name">Last Name</label>
-                <input type="text" id="last_name" name="last_name" required>
+            <div class="col-6">
+                <div class="row">
+                    <label class="VendorsTxt" for="last_name">Last Name</label>
+                </div>
+                <div class="row">
+                    <input type="text" id="last_name" name="last_name" required>
+                </div>
             </div>
         </div>
         <div class="row">
-            <label for="email">Email Address (required)</label>
+            <label class="VendorsTxt" for="email">Email Address (required)</label>
             <input type="email" id="email" name="email" required>
         </div>
+        <!-- buttons -->
         <div class="row">
-            <label for="currenttruck">Do you currently have a food truck? (required)</label>
-            
-                <button value="yes">yes</button>
-                <button value="no">no</button>
-            
+            <label class="VendorsTxt" for="currenttruck">Do you currently have a food truck? (required)</label>
+
+            <div class="col-12">
+                <input type="radio" class="testRun" id="Yes1" name="Yes" value="question1" for="Yes" />
+                <label class="VendorsTxt testRun" id="Yes1" name="Yes" for="Yes"> Yes</label>
+            </div>
+
+            <div class="col-12">
+                <input type="radio" class="testRun" name="Yes" id="No1" value="question1" for="No" />
+                <label class="VendorsTxt testRun" id="No1" for="No"> No</label>
+            </div>
+
+            <!--buttons  -->
+
         </div>
         <div class="row">
-            <label for="heardabout">How did you hear about us?</label>
-            <input type="text" id="heardabout" name="heardabout">
+            <label class="VendorsTxt" for="heardabout">How did you hear about us?</label>
+            <input type="text" id="heardabout" name="heardAbout">
         </div>
+
         <div class="row">
-            <label for="leasing">Are you in the process of leasing/ purchasing a food truck?</label>
-            
-                <button value="yes">yes</button>
-                <button value="no"> no</button>
+            <label class="VendorsTxt" for="leasing">Are you in the process of leasing/ purchasing a food truck?</label>
+
+            <!-- button -->
+            <div class="col-12">
+                <input type="radio" class="testRun" id="Yes2" name="Yes2" value="question2" for="Yes" />
+                <label class="VendorsTxt testRun" id="Yes2" name="Yes" for="Yes"> Yes</label>
+            </div>
+
+            <div class="col-12">
+                <input type="radio" class="testRun" name="Yes2" id="No2" value="question2" for="No" />
+                <label class="VendorsTxt testRun" id="No2" for="No"> No</label>
+            </div>
         </div>
+        <!-- buttons -->
+
         <div class="row">
-            <label for="counties">Please list all the counties that you are currently permitted in: (required)</label>
+            <label class="VendorsTxt" for="counties">Please list all the counties that you are currently permitted in:
+                (required)</label>
             <input id="counties" name="counties" required> </input>
         </div>
         <div class="row">
-            <label for="phone">Phone Number (required)</label>
+            <label class="VendorsTxt" for="phone">Phone Number (required)</label>
             <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <br>
+        <!-- Button trigger modal -->
+        <div class="col d-flex justify-content-center">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Summit
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Successful</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Your application has been submitted.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -157,6 +214,7 @@
                 <img src="../assets/facebookLogo.png" alt="Company Logo">
 
             </div>
+
         </div>
     </div>
 

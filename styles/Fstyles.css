@@ -63,8 +63,24 @@ body{
     background-color: #fff;
 }
 
-
 /* End starter */
+
+.VendorsTxt{
+    color: #000;
+    font-family: EBGaramond-Regular;
+
+
+}
+.testRun{
+    width: 2%;
+}
+
+
+
+
+
+/* Application styling */
+
 
 /* Fonts */
 @font-face {
