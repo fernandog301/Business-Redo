@@ -8,59 +8,38 @@ body{
 
 .backgroundFooter{
     background-color: #414594;
-
 }
 
 .footerTitleTxt{
     color: #fff;
     font-family: Oswald-regular;
-    font-size: 30px;
+    font-size: 32px;
 }
 .footerBodyTitleTxt{
     color: #fff;
     font-family: EBGaramond-Bold;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .footerBodyTxt{
     color: #fff;
-    font-family: Oswald-Light;
-    font-size: 14px;
+    font-family: EBGaramond-Regular;
+    font-size: 20px;
 }
 .bodyTitleTxt{
     color: #000;
     font-family: Oswald-regular;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .bodyTitleImgTxt{
     color: #000;
     font-family: Oswald-regular;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    vertical-align: middle;
-    text-align: center;
-    padding: 12px 20px;
-
+    font-size: 24px;
 }
 .bodyTxt{
     color: #000;
-    font-family: Oswald-Light;
+    font-family: EBGaramond-Regular;
     font-size: 30px;
-    font-style: normal;
-    vertical-align: middle;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    padding: 12px 20px;
-
-}
-.backgroundBody{
-    background-color: #fff;
 }
 
 /* End starter */
@@ -68,8 +47,6 @@ body{
 .VendorsTxt{
     color: #000;
     font-family: EBGaramond-Regular;
-
-
 }
 .ownersNameTxt{
     color: #000;

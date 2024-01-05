@@ -109,7 +109,8 @@
         <!-- buttons -->
 
         <div class="row">
-            <label class="VendorsTxt" for="counties">Please list all the counties that you are currently permitted in: (required)</label>
+            <label class="VendorsTxt" for="counties">Please list all the counties that you are currently permitted in:
+                (required)</label>
             <input id="counties" name="counties" required> </input>
         </div>
         <div class="row">
@@ -120,7 +121,7 @@
         <br>
         <!-- Button trigger modal -->
         <div class="col d-flex justify-content-center">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <button type="button" class="btn btn-primary backgroundFooter" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 Submit
             </button>
 
@@ -130,7 +131,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Successful</h1>
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Success!</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
@@ -167,15 +168,15 @@
 
 
 
-    <!-- Start footer -->
-    <div class="container-fluid backgroundFooter  text-center  p-3">
+    <!-- Start of Desktop Footer -->
+    <div class="container-fluid backgroundFooter text-center pt-4 pb-5 d-none d-sm-block">
         <div class="row m-3">
             <div class="col">
                 <p class="footerTitleTxt">Schedule</p>
-                <p class="footerBodyTitleTxt">Monday-Saturday</p>
+                <p class="footerBodyTitleTxt m-0">Monday-Saturday</p>
                 <p class="footerBodyTxt">
                     11:00am - 9:00pm</p>
-                <p class="footerBodyTitleTxt">Sunday</p>
+                <p class="footerBodyTitleTxt m-0">Sunday</p>
                 <p class="footerBodyTxt">
                     11:00am - 5:00pm</p>
             </div>
@@ -184,23 +185,22 @@
                     <p class="footerTitleTxt">Happy Hour</p>
                 </div>
                 <div class="row">
-                    <p class="footerBodyTitleTxt">Monday-Saturday</p>
+                    <p class="footerBodyTitleTxt m-0">Monday-Saturday</p>
                     <p class="footerBodyTxt">
                         5:00pm - 7:00pm</p>
                 </div>
                 <div class="row">
-                    <p class="footerBodyTitleTxt">Sunday</p>
+                    <p class="footerBodyTitleTxt m-0">Sunday</p>
                     <p class="footerBodyTxt">
                         1:00pm - 4:00pm</p>
                 </div>
-
             </div>
             <div class="col">
                 <div class="row">
-                    <p class="footerTitleTxt"> Contact Us</p>
+                    <p class="footerTitleTxt">Contact Us</p>
                 </div>
                 <div class="row">
-                    <p class="footerBodyTxt">(209) 621-7909</p>
+                    <p class="footerBodyTxt m-0">(209) 621-7909</p>
                 </div>
                 <div class="row">
                     <p class="footerBodyTxt">
@@ -209,15 +209,56 @@
             </div>
             <div class="col">
                 <p class="footerTitleTxt"> Follow Us</p>
-                <img class="pe-3" src="../assets/instagramLogo.png" alt="Company Logo">
-                <img src="../assets/facebookLogo.png" alt="Company Logo">
-
+                <img class="me-2 socialMediaSize" src="../assets/instagramLogo.png" alt="Company Logo">
+                <img class="ms-2 socialMediaSize" src="../assets/facebookLogo.png" alt="Company Logo">
             </div>
-
         </div>
     </div>
+    <!-- End of Desktop Footer-->
 
-    <!-- end Footer-->
+    <!-- Start of Mobile Footer -->
+    <div class="container d-block d-sm-none backgroundFooter">
+        <div class="row text-center pt-5">
+            <p class="footerTitleTxt">Schedule</p>
+        </div>
+        <div class="row text-center">
+            <p class="footerBodyTitleTxt m-0">Monday-Saturday</p>
+            <p class="footerBodyTxt">11:00am - 9:00pm</p>
+        </div>
+        <div class="row text-center">
+            <p class="footerBodyTitleTxt m-0">Sunday</p>
+            <p class="footerBodyTxt">11:00am - 5:00pm</p>
+        </div>
+        <hr style="border: 2px solid white;">
+        <div class="row text-center">
+            <p class="footerTitleTxt">Happy Hour</p>
+        </div>
+        <div class="row text-center">
+            <p class="footerBodyTitleTxt m-0">Monday-Saturday</p>
+            <p class="footerBodyTxt">5:00pm - 7:00pm</p>
+        </div>
+        <div class="row text-center">
+            <p class="footerBodyTitleTxt m-0">Sunday</p>
+            <p class="footerBodyTxt">1:00pm - 4:00pm</p>
+        </div>
+        <hr style="border: 2px solid white;">
+        <div class="row text-center">
+            <p class="footerTitleTxt">Contact Us</p>
+        </div>
+        <div class="row text-center">
+            <p class="footerBodyTxt m-0">(209) 621-7909</p>
+            <p class="footerBodyTxt">info@stocklandiallc.com</p>
+        </div>
+        <hr style="border: 2px solid white;">
+        <div class="row text-center">
+            <p class="footerTitleTxt">Follow Us</p>
+        </div>
+        <div class="row d-flex justify-content-center pb-4">
+            <img src="../assets/instagramLogo.png" class="socialMediaSize me-2 px-0" alt="Instagram logo">
+            <img src="../assets/facebookLogo.png" class="socialMediaSize ms-2 px-0" alt="Facebook logo">
+        </div>
+    </div>
+    <!-- End of Mobile Footer -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

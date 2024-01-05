@@ -26,15 +26,25 @@
 
 .fontSize64 {
     font-size: 64px;
+    font-family: Oswald-Regular;
 }
 
 .fontSize36 {
     font-size: 36px;
 }
 
+.fontSize30 {
+    font-size: 30px;
+    font-family: Oswald-Regular;
+}
+
 .fontSize24 {
     font-size: 24px;
 } 
+
+.ebGaramond {
+    font-family: EBGaramond-Regular;
+}
 /* Should make a media query for font sizes later on for better responsiveness */
 
 .stocklandiaNightResize {
@@ -54,4 +64,8 @@
 .socialMediaSize {
     height: 35px;
     width: 35px;
+}
+
+.landingPadding {
+    padding: 50px 150px 20px 150px;
 }
