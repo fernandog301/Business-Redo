@@ -54,4 +54,18 @@
     object-position: 50% 18%;
 }
 
-.container
+.containerSize {
+    height: 516px;
+    width: 516px;
+    background-color: #FAF7F7;
+    border-radius: 10px;
+}
+
+.socialMediaSize {
+    height: 35px;
+    width: 35px;
+}
+
+.landingPadding {
+    padding: 50px 150px 20px 150px;
+}
