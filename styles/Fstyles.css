@@ -81,7 +81,6 @@ body{
  }
 
 
-
 .testRun{
     width: 2%;
 }
@@ -118,3 +117,101 @@ body{
     src: url(../Fonts/Oswald-Light.ttf);
 }
 /* End Fonts */
+
+/* media Mobile */
+
+@media only screen and (max-width: 410px){
+    .cardp{
+        padding-right: 1%;
+        padding-left: 3%;
+    }
+    .cardpp{
+        padding-right: 2%;
+        padding-left: 6%;
+    }
+    
+
+
+
+    .padi{
+        padding-top: 5%;
+    }
+    .pt{
+        padding-left: 0%;
+
+    }
+
+    .hpc{
+        text-align: center;
+    }
+    .hpp{
+        padding: 0;
+    }
+
+    .story{
+        padding-left: 2%;
+        padding-top: 4%;
+        font-size: 39px;
+        font-family: FugazOne;
+        color: #5F002B;
+        /* text-align: center; */
+    }
+    .homepad{
+        padding-left: 6%;
+        padding-right: 4%;
+
+    }
+    .padii{
+        padding-top: 5%;
+    }
+    .s{
+        padding-right: 103.8%;
+        opacity: 0;
+
+    }
+    .VendersColumn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .Venders-item {
+        margin: 0 10px;
+    }
+    .bodyTextMove1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .bodyTextMove2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+
+/* @media (min-width: 1450px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1300px;
+    }
+}    
+@media (min-width: 1650px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1600px;
+    }
+}     */
+
+
