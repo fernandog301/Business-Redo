@@ -95,9 +95,9 @@
     stroke: white;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 430px) {
     .strokeText {
-        font-size: 54px;
+        font-size: 48px;
         text-align: center;
         text-anchor: center;
         stroke: white;
