@@ -12,7 +12,7 @@ body{
 
 .footerTitleTxt{
     color: #fff;
-    font-family: Oswald-regular;
+    font-family: Oswald-Regular;
     font-size: 32px;
 }
 .footerBodyTitleTxt{
@@ -28,12 +28,12 @@ body{
 }
 .bodyTitleTxt{
     color: #000;
-    font-family: Oswald-regular;
+    font-family: Oswald-Regular;
     /* font-size: 36px; */
 }
 .bodyTitleImgTxt{
     color: #000;
-    font-family: Oswald-regular;
+    font-family: Oswald-Regular;
     font-size: 24px;
 }
 .bodyTxt{
@@ -71,14 +71,14 @@ body{
 }
 
 .oswald{
-    font-family: Oswald-regular;
+    font-family: Oswald-Regular;
     color: #000;
     font-size: 64px;
 }
 
 .VendorsApplicationTxt{
     color: #000;
-    font-family: Oswald-regular;
+    font-family: Oswald-Regular;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;

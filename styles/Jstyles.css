@@ -30,6 +30,10 @@
     font-family: Oswald-Regular;
 }
 
+.fontSizeBold48 {
+    font-size: 48px;
+    font-family: Oswald-Bold;
+}
 
 .fontSize36 {
     font-size: 36px;
@@ -44,7 +48,8 @@
     font-size: 24px;
     font-family: EBGaramond-Regular;
 }
-.fontSizeOs24{
+
+.fontSizeOs24 {
     font-size: 24px;
     font-family: Oswald-Regular;
 }
@@ -53,13 +58,38 @@
     font-family: EBGaramond-Regular;
     font-size: 16px;
 }
-.fontSizeBold16{
+
+.fontSizeBold16 {
     font-size: 16;
     font-family: EBGaramond-Bold;
 }
-.fontSize20{
+
+.fontSize20 {
     font-size: 20px;
     font-family: Oswald-Regular;
+}
+
+.fontSize12 {
+    font-size: 12px;
+    font-family: EBGaramond-Regular;
+}
+
+.fontSize13 {
+    font-size: 13px;
+    font-family: EBGaramond-Regular;
+}
+
+.fontSizeBold13 {
+    font-size: 13px;
+    font-family: EBGaramond-Bold;
+}
+
+.oswaldRegular {
+    font-family: Oswald-Regular;
+}
+
+.ebGaramondRegular {
+    font-family: EBGaramond-Regular;
 }
 
 
@@ -73,8 +103,15 @@
 }
 
 .containerSize {
-    height: 516px;
-    width: 516px;
+    height: 550px;
+    width: 550px;
+    background-color: #FAF7F7;
+    border-radius: 10px;
+}
+
+.containerSizeMobile {
+    height: 550px;
+    width: 550px;
     background-color: #FAF7F7;
     border-radius: 10px;
 }
@@ -90,6 +127,10 @@
 
 .landingPaddingMobile {
     padding: 70px 50px 70px 50px;
+}
+
+.blueShadow {
+    box-shadow: 40px -40px 0px 0px #414594;
 }
 
 @media (min-width: 320px) {
@@ -128,5 +169,31 @@
 @media (min-width: 1440px) {
     .trucksHeader {
         font-size: 64px;
+    }
+}
+
+@media (min-width: 320px) {
+    .aboutBioHeader {
+        font-size: calc(3rem + ((1vw - 3.2px) * 1.4286));
+        min-height: 0vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .aboutBioHeader {
+        font-size: 64px;
+    }
+}
+
+@media (min-width: 320px) {
+    .aboutBioText {
+        font-size: calc(1.25rem + ((1vw - 3.2px) * 0.3571));
+        min-height: 0vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .aboutBioText {
+        font-size: 24px;
     }
 }
