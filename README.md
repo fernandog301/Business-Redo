@@ -1,7 +1,9 @@
-Calm Luh Figma. by Jerrod Packard, Fernando Gutierrez , Robert Arias 
+Team Name: Calm Luh Figma
+Team Members: Jerrod Packard, Fernando Gutierrez, and Robert Arias
+Business: Stocklandia
 1/6/2024
-Business redo build
-Using the figma that we created we built a full working website. As well as making it resposive from computor to Mobile.
+Business Redo Build
+Using the Figma that we created, we built a fully functional website with responsiveness for desktop and mobile.
 
 
 Peer Review by Zach Dressel, 1/6/24:
@@ -15,11 +17,11 @@ Peer Review by Zach Dressel, 1/6/24:
 	- spacing can be fixed by setting a max-width on the row that contains the elements.
 
 * about page has some mis-formatting on the Meet the Owners section (banner text is on top of the image box and text box)
-* about page images arent centered properly and dont have proper css positioning to be responsive on larger screens.
+* about page images aren't centered properly and don't have proper css positioning to be responsive on larger screens.
 
 *No issues on Our Trucks page.
 *No issues on Vendor application page.
 
-* clicking on the Stocklandia Logo to the left to get to the landing page isnt as intuitive as having a home page link with the other page links, and having both would work great.
+* clicking on the Stocklandia Logo to the left to get to the landing page isn't as intuitive as having a home page link with the other page links, and having both would work great.
 
-Overall review of the webiste is that it is clean looking save for some easy to fix issues. Very well done.
+Overall review of the website is that it is clean looking save for some easy to fix issues. Very well done.
