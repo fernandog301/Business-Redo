@@ -11,19 +11,72 @@
     border-radius: 10px;
 }
 
-.fontSize96 {
+/* .fontSize96 {
     font-size: 96px;
     color: white;
     /* border: 5px solid red; */
     /* text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black; */
-    outline: 1px solid red;
+    /* outline: 1px solid red;
     fill: white;
     stroke: red;
     stroke-width: 5px;
     -webkit-text-stroke: 4px navy;
     /* text-stroke: 4px navy; */
-    position: absolute;
+    /* position: absolute; 
+} */
+
+/* .fontSize96,
+.no-stroke {
+  color: white;
+  font-size: 96px;
+  -webkit-text-stroke: 3px solid red;
+  position: absolute;
 }
+
+.fontSize96{
+    -webkit-text-stroke: 3px solid red;
+}
+
+.fontSize96 {
+    -webkit-text-stroke: 6px navy;
+    font-size: 96px;
+    position: absolute;
+} */
+
+/*  */
+
+.stroke-text{
+    font-size:80px;
+    text-align:center;
+    text-anchor:middle;
+    stroke:white;
+    stroke-width:5px;
+    fill:none;
+  }
+  
+  .thick{
+    stroke-width:15px;
+  }
+  
+  .thicker{
+    stroke-width:20px;
+  }
+  
+  .color1{
+    stroke:blue;
+  }
+  
+  .color2{
+    stroke:red;
+  }
+  
+  .color3{
+    stroke:white;
+  }
+
+
+
+/*  */
 
 .fontSize64 {
     font-size: 64px;

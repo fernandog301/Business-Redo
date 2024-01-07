@@ -122,8 +122,11 @@ body{
     width: 17px;
 }
 
-
-
+.responsive {
+    width: 90%;
+    height: max-content;
+    border-radius: 10px;
+  }
 
 
 /* Application styling */
