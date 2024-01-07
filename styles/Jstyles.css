@@ -36,14 +36,14 @@
     font-size: 96px;
     color: white;
     /* border: 5px solid red; */
-    /* text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black; */
-    /* outline: 1px solid red;
+/* text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black; */
+/* outline: 1px solid red;
     fill: white;
     stroke: red;
     stroke-width: 5px;
     -webkit-text-stroke: 4px navy;
     /* text-stroke: 4px navy; */
-    /* position: absolute; 
+/* position: absolute; 
 } */
 
 /* .fontSize96,
@@ -66,34 +66,34 @@
 
 /*  */
 
-.stroke-text{
-    font-size:80px;
-    text-align:center;
-    text-anchor:middle;
-    stroke:white;
-    stroke-width:5px;
-    fill:none;
-  }
-  
-  .thick{
-    stroke-width:15px;
-  }
-  
-  .thicker{
-    stroke-width:20px;
-  }
-  
-  .color1{
-    stroke:blue;
-  }
-  
-  .color2{
-    stroke:red;
-  }
-  
-  .color3{
-    stroke:white;
-  }
+.strokeText {
+    font-size: 96px;
+    text-align: center;
+    text-anchor: middle;
+    stroke: white;
+    stroke-width: 5px;
+    fill: white;
+}
+
+.thick {
+    stroke-width: 15px;
+}
+
+.thicker {
+    stroke-width: 25px;
+}
+
+.color1 {
+    stroke: #414594;
+}
+
+.color2 {
+    stroke: #EC3337;
+}
+
+.color3 {
+    stroke: white;
+}
 
 
 
