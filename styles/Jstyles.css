@@ -95,7 +95,37 @@
     stroke: white;
 }
 
-
+@media (min-width: 320px) {
+    .strokeText {
+        font-size: 54px;
+        text-align: center;
+        text-anchor: center;
+        stroke: white;
+        stroke-width: 5px;
+        fill: white;
+    }
+    
+    .thick {
+        stroke-width: 15px;
+    }
+    
+    .thicker {
+        stroke-width: 25px;
+    }
+    
+    .color1 {
+        stroke: #414594;
+    }
+    
+    .color2 {
+        stroke: #EC3337;
+    }
+    
+    .color3 {
+        stroke: white;
+    }
+    
+}
 
 /*  */
 
